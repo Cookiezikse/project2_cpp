@@ -4,7 +4,7 @@
 #include<vector>
 class GameObject {
 public:
-
+	//
 	//GameObject(const std::string& name)	
 	//	: name(name){}
 	const std::string getTag() const;
