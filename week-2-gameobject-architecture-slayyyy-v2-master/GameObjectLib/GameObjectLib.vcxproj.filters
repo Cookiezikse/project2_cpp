@@ -18,9 +18,15 @@
     <ClCompile Include="sources\GameObjectLib.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="sources\Vector2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="includes\GameObjectLib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\Vector2.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
