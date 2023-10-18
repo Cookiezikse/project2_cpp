@@ -4,8 +4,8 @@
 #include<vector>
 class GameObject {
 public:
-	//GameObject(const std::string& name)	
-	//	: name(name){}
+	GameObject()	
+		: isActive(true){}
 	const std::string getTag() const;
 	void setTag(const std::string& tag_set);
 	const std::string getName() const;
@@ -22,8 +22,9 @@ public:
 private:
 	std::string name = "GameObject";
 	std::string tag;
-	std::vector<std::string> *Components;
+	std::vector<std::string> Components;
 	float scale = 1;
+	bool isActive;
 	//glm::vec2 position;
 	//glm::vec2 rotation;
 	//glm::vec2 color;
